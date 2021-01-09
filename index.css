@@ -15,7 +15,7 @@ main>div {
 	display:none;
 }
 
-#home:target~.home,#education:target~.education,#activities:target~.activities,#about:target~.about{
+#home:target~.home,#education:target~.education,#activities:target~.activities,#about:target~.about,#syllabus:target~.syllabus{
 	display:block;
 }
 
@@ -127,12 +127,12 @@ ul{
 	color:white;
 	display:inline-block;
 	position:relative;
-	margin:20px;
 }
 
 li{
 	background-color:#556B2F;
 	color:white;
+	font-size:20px;
 }
 
 footer {
