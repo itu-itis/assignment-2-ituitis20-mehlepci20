@@ -15,7 +15,7 @@ main>div {
 	display:none;
 }
 
-#home:target~.home,#education:target~.education,#activities:target~.activities,#about:target~.about,#syllabus:target~.syllabus{
+#home:target~.home,#education:target~.education,#activities:target~.activities,#about:target~.about,#sports:target~.sports,#staff:target~.staff{
 	display:block;
 }
 
