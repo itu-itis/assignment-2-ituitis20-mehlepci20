@@ -15,7 +15,7 @@ main>div {
 	display:none;
 }
 
-#home:target~.home,#education:target~.education,#activities:target~.activities,#about:target~.about,#sports:target~.sports,#staff:target~.staff{
+#home:target~.home,#education:target~.education,#activities:target~.activities,#about:target~.about,#sportsandteachers:target~.sportsandteachers{
 	display:block;
 }
 
@@ -108,6 +108,7 @@ th,td{
 	background-color:white;
 	color:#556B2F;
 	padding:5px;
+	font-size:20px;
 	}
 
 
@@ -142,3 +143,37 @@ footer {
 	
 }
 
+button{
+	background-color:#556B2F;
+	color:white;
+	transition-property:background-color color;
+	transition-duration:750ms;
+	margin:20px;
+	padding:5px;
+	font-size:20px;
+	border:#f2f5ed solid;
+	
+}
+
+section.button-flexbox{
+	display:flex;
+	justify-content:center;
+	position:absolute;
+	
+}
+
+button:hover {
+	background-color:#f2f5ed;
+	color:#556B2F;
+	border:#556B2F solid;
+}
+
+#teachersTable,#sportsTable,#goBack,#addTeacher,#addSports,#teachersForm,#sportsForm,#addToTeachersList,#addToSportsList {
+	display:none;
+	text-align:center;
+}
+
+form {
+	font-size:20px;
+	
+}
