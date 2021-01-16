@@ -155,13 +155,6 @@ button{
 	
 }
 
-section.button-flexbox{
-	display:flex;
-	justify-content:center;
-	position:absolute;
-	
-}
-
 button:hover {
 	background-color:#f2f5ed;
 	color:#556B2F;
