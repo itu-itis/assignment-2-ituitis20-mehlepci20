@@ -80,7 +80,7 @@ nav a:hover{
 	max-height:400px;
 	
 }
-article{
+aside{
 	background-color:#556B2F;
 	color:white;
 	padding:30px;
@@ -88,10 +88,10 @@ article{
 	justify-content:left-side;
 	margin:50px;
 }
-article h1{
+aside h1{
 	margin:20px;
 }
-article p {
+aside p {
 	font-size:25px;
 	margin:20px;
 	
